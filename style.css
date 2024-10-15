@@ -1,0 +1,451 @@
+/* Global styles 
+----------------------------- */
+html {
+  font-size: 15px;
+  margin: 0;
+}
+
+body {
+  font-family: Montserrat;
+  margin: 0;
+  line-height: 25px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #b2967d;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button {
+  background-color: #b2967d;
+  margin: 0 20px 0 20px;
+  padding: 5px;
+}
+
+#button:hover {
+  color: white;
+  opacity: 0.7;
+  border: 0.5px solid black;
+  border-radius: 2px;
+}
+
+.section {
+  max-width: 1100px;
+  width: 85%;
+  margin: 50px auto;
+  border-top: 0.5px solid #b2967d;
+  padding-top: 20px;
+}
+
+#food-img {
+  width: 270px;
+  height: 270px;
+  opacity: 0.85;
+  border: 8px solid white;
+}
+
+#food-img:hover {
+  opacity: 1;
+  width: 280px;
+  height: 280px;
+}
+
+#social-media-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+#social-media-icon:hover {
+  opacity: 0.7;
+  width: 42px;
+  height: 42px;
+  padding: 10px;
+}
+
+/* Header
+----------------------------- */
+
+header {
+  background-color: #e6beae;
+  width: 100%;
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.85;
+  font-family: Karla;
+  word-spacing: 2px;
+}
+
+.header-button {
+  background-color: #b2967d;
+  margin: 0 20px 0 20px;
+  padding: 5px;
+}
+
+.header-button:hover {
+  color: white;
+  opacity: 0.7;
+  border: 0.5px solid black;
+  border-radius: 2px;
+}
+
+/* Main
+----------------------------- */
+
+main {
+  padding-top: 55px;
+  width: 100%;
+}
+
+#logo {
+  width: 350px;
+  height: 350px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+nav {
+  border-top: 0.5px solid #b2967d;
+  border-bottom: 0.5px solid #b2967d;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0;
+  width: 100%;
+}
+
+nav li {
+  padding: 0 60px;
+}
+
+.cover {
+  background-image: url("images_site_responsive/cover-misc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin: 50px auto;
+}
+
+.quote {
+  background: white;
+  width: 100%;
+  opacity: 0.8;
+  padding: 0;
+  line-height: 50px;
+}
+
+.quote h2 {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.quote h3 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* About
+----------------------------- */
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #eee4e1;
+  padding: 40px;
+}
+
+.sabrina {
+  width: 450px;
+  padding: 20px;
+}
+
+.sabrina img {
+  width: 430px;
+  height: 530px;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  border-bottom: 40px solid white;
+}
+
+.sabrina p {
+  width: 450px;
+  text-align: left;
+}
+
+.vinh {
+  width: 450px;
+  padding: 20px;
+}
+
+.vinh img {
+  width: 430px;
+  height: 530px;
+  border-top: 10px solid white;
+  border-left: 10px solid white;
+  border-right: 10px solid white;
+  border-bottom: 40px solid white;
+}
+
+.vinh p {
+  width: 430px;
+  text-align: left;
+}
+
+/* Recipes
+----------------------------- */
+
+.recipes {
+  background-color: #e7d8c9;
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipes h2 {
+  text-transform: uppercase;
+  font-family: Karla;
+  padding-top: 20px;
+}
+
+.recipes p {
+  margin-bottom: 40px;
+}
+
+.food-type {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.food-type div {
+  margin: 0 40px;
+}
+
+.desserts,
+.asian-sweets {
+  border-bottom: 0.5px solid #b2967d;
+}
+
+/* Contact
+----------------------------- */
+.contact {
+  background-color: #ecf8f8;
+  padding-top: 30px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+form p {
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+input {
+  width: 400px;
+  background-color: #eee4e1;
+  height: 40px;
+  font-size: 15px;
+  font-family: Montserrat;
+  border-radius: 5px;
+  border: none;
+  padding-top: 10px;
+}
+
+input:hover {
+  border: 3px solid #e6beae;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+  background-color: #eee4e1;
+  font-size: 15px;
+  font-family: Montserrat;
+  border-radius: 5px;
+  border: none;
+  padding-top: 10px;
+}
+
+textarea:hover {
+  border: 3px solid #e6beae;
+}
+
+button {
+  width: 400px;
+  height: 40px;
+  background-color: #e6beae;
+  font-size: 15px;
+  border: none;
+  font-family: Montserrat;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+button:hover {
+  border: 3px solid #b2967d;
+  opacity: 0.85;
+}
+
+/* Social Media
+----------------------------- */
+
+.social-media {
+  background-color: #e7d8c9;
+  width: 100%;
+  padding-top: 10px;
+}
+
+/* Footer
+----------------------------- */
+
+/* footer {
+    display: grid;
+    grid-template-columns: repeat(5, 180px);
+}
+
+footer span {
+    font-size: 12px;
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+*/
+
+/* Responsiveness
+----------------------------- */
+@media only screen and (max-width: 580px) {
+  header {
+    background-color: #e6beae;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.85;
+    font-family: Karla;
+    word-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 10px;
+  }
+
+  header span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-button {
+    width: 60%;
+    padding: 0 2px 0 2px;
+    font-size: 7px;
+  }
+
+  main {
+    padding-top: 70px;
+  }
+
+  #logo {
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .food-type {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .sabrina {
+    width: 225px;
+  }
+
+  .sabrina img {
+    width: 225px;
+    height: 225px;
+  }
+
+  .sabrina p {
+    width: 225px;
+  }
+
+  .vinh {
+    width: 225px;
+  }
+
+  .vinh img {
+    width: 225px;
+    height: 275px;
+  }
+
+  .vinh p {
+    width: 225px;
+  }
+
+  #food-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  input,
+  textarea,
+  button {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  footer {
+    display: flex;
+  }
+
+  footer span {
+    font-size: 7px;
+    margin: 5px;
+  }
+}
